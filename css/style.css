@@ -1,3 +1,9 @@
+.logo{
+    width:220px;
+    max-width:90%;
+    display:block;
+    margin:0 auto 20px;
+}
 *{
     margin:0;
     padding:0;
