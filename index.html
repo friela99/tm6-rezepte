@@ -2,32 +2,52 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Frielas Thermomix-Rezepte</title>
+
 <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+
 <header class="hero">
-<h1>🍴 Frielas Thermomix-Rezepte</h1>
-<p>Lecker kochen – einfach mit dem TM6 • Alle Rezepte für 2 Personen</p>
-<input id="search" placeholder="🔍 Rezept suchen...">
+    <h1>🍴 Frielas Thermomix-Rezepte</h1>
+    <p>Lecker kochen – einfach mit dem TM6</p>
+
+    <input type="text" id="search" placeholder="🔍 Rezept suchen...">
 </header>
 
-<nav class="cats">
-<button>Suppen</button>
-<button>Hauptgerichte</button>
-<button>Desserts</button>
-<button>High Protein</button>
+<nav class="kategorien">
+    <button>🥣 Suppen</button>
+    <button>🍝 Hauptgerichte</button>
+    <button>🥗 Salate</button>
+    <button>🍰 Desserts</button>
 </nav>
 
-<main id="cards">
-<a class="card" href="rezepte/tomaten-karotten-suppe.html">
-<div class="placeholder">📷 Rezeptbild folgt</div>
-<h2>Tomaten-Karotten-Suppe</h2>
-<p>⏱️ 35 Min • 👥 2 Personen</p>
+<section class="rezepte">
+
+<a href="rezepte/tomaten-karotten-suppe.html" class="karte">
+    <img src="bilder/tomaten-karotten-suppe.jpg" alt="Tomaten-Karotten-Suppe">
+    <h2>Tomaten-Karotten-Suppe</h2>
+
+    <div class="infos">
+        <span>⏱ 35 Min.</span>
+        <span>👥 2 Personen</span>
+    </div>
+
+    <p>Cremige Gemüsesuppe aus frischen Tomaten und Karotten.</p>
+
 </a>
-</main>
+
+</section>
+
+<footer>
+
+© 2026 Frielas Thermomix-Rezepte
+
+</footer>
 
 <script src="js/script.js"></script>
+
 </body>
 </html>
